@@ -6,11 +6,6 @@
 
 ---
 
-## 📸 Screenshots
-
-![Timeline View](https://cricket-legacy.vercel.app/og-image.jpg) <!-- Replace with actual image if different -->
-
----
 
 ## 🚀 Features
 
@@ -76,7 +71,7 @@ Arqam Hussain
 
     GitHub: @arqam66
 
-    Email: your.email@example.com <!-- Replace with your actual email if you'd like -->
+    Email: arqamt40@gmail.com
 
 ⭐️ Show Your Support
 
