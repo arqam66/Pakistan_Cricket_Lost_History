@@ -1,82 +1,76 @@
-# 🏏 Cricket Legacy
 
-**Cricket Legacy** is a modern and responsive web project that celebrates the iconic history of cricket. Explore a beautifully designed timeline filled with memorable cricket moments and legendary players.
+🏏 Cricket Legacy
 
-🌐 **Live Site**: [cricket-legacy.vercel.app](https://cricket-legacy.vercel.app/#timeline)
+Cricket Legacy is a modern and responsive web project that celebrates the iconic history of cricket. Explore a beautifully designed timeline filled with memorable cricket moments and legendary players.
 
----
+🌐 Live Site: cricket-legacy.vercel.app
+🚀 Features
 
+    🕒 Timeline of major cricket events
 
-## 🚀 Features
+    📱 Mobile-first responsive design
 
-- 🕒 Timeline of major cricket events
-- 📱 Mobile-first responsive design
-- ⚡ Smooth transitions and clean layout
-- 💡 Lightweight and fast performance
+    ⚡ Smooth transitions and clean layout
 
----
+    💡 Lightweight and fast performance
 
+🛠 Tech Stack
 
+    ⚡ Vite
 
-## 📁 Project Structure
+    🟦 TypeScript
 
-```bash
-cricket-legacy/
-├── assets/             # Images and icons
-├── css/                # Stylesheets
-├── js/                 # JavaScript files
-├── ts/                 # TypeScript files
-├── index.html          # Main HTML file
-└── README.md
+    ⚛️ React
+
+    🎨 shadcn/ui
+
+    💨 Tailwind CSS
 
 🧑‍💻 Getting Started
 Prerequisites
 
-    Node.js (if using a TypeScript compiler)
+    Node.js (with npm)
 
     A modern web browser
 
-Run Locally
+Steps to Run Locally
 
-    Clone the repository:
-
+# Step 1: Clone the repository
 git clone https://github.com/arqam66/cricket-legacy.git
+
+# Step 2: Navigate to the project folder
 cd cricket-legacy
 
-If using TypeScript locally, compile it:
+# Step 3: Install dependencies
+npm install
 
-    tsc
+# Step 4: Start the development server
+npm run dev
 
-    Open index.html in your browser to preview the project.
+Open your browser and go to http://localhost:5173 (or the port displayed in your terminal).
+🗂️ Project Structure
 
-📌 Deployment
+cricket-legacy/
+├── public/             # Static public assets (images, fonts, etc.)
+├── src/                # React source code (components, pages, styles)
+│   ├── components/     # Reusable React components
+│   ├── pages/          # Page components (Home, About, etc.)
+│   └── main.tsx        # Application entry point
+├── .gitignore          # Git ignore rules
+├── package.json        # NPM dependencies and scripts
+└── README.md           # Project documentation
 
-This project is deployed using Vercel. Every commit to the main branch is automatically deployed to production.
-🙌 Contributing
+🚀 Deployment
 
-Contributions are welcome! If you have ideas to enhance the project, feel free to:
+This project is deployed on Vercel. Any push to the main branch will automatically trigger a new deployment. The live site is hosted on the cricket-legacy.vercel.app.
+🤝 Contributing
 
-    Fork the repository
+Contributions are welcome! Feel free to open an issue or submit a pull request. Please update tests as appropriate and follow the existing code style. For major changes, ensure any new features are well-documented.
+📄 License
 
-    Create a new branch
-
-    Submit a pull request
-
-📝 License
-
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the LICENSE file for details.
 👤 Author
 
-Arqam Hussain
+arqam66 – Developer – GitHub Profile
 
-    GitHub: @arqam66
-
-    Email: arqamt40@gmail.com
-
-⭐️ Show Your Support
-
-If you like this project, give it a ⭐️ on GitHub and share it with your friends who love cricket!
-
-
-Would you like help converting existing JavaScript files to TypeScript or setting up a `tsconfig.json` file?
-
+Feel free to connect or check out other projects on my GitHub.
