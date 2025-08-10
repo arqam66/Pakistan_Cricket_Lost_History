@@ -102,22 +102,33 @@ npm run preview
 ```
 Pakistan_Cricket_Lost_History/
 ├── public/                  # Static public assets (served as-is)
+│   ├── favicon.ico
+│   └── placeholder.svg
 ├── src/                     # Source code
-│   ├── assets/               # Images, icons, other static assets
 │   ├── components/           # Reusable UI components
 │   ├── data/                  # Data for cricket events & players
+│   ├── hooks/                 # Custom React hooks
+│   ├── lib/                   # Utility and helper functions
 │   ├── pages/                 # Page-level components
-│   ├── styles/                # Global and component-specific styles
+│   ├── App.css                # Global styles
 │   ├── App.tsx                # Root React component
+│   ├── index.css              # Base styles for Tailwind
 │   ├── main.tsx               # App entry point
 │   └── vite-env.d.ts          # Vite TypeScript env declarations
 ├── .gitignore                # Ignored files for git
+├── README.md                 # Project documentation
+├── bun.lockb                 # Bun package lock file (if using Bun)
+├── components.json           # shadcn/ui config
+├── eslint.config.js          # ESLint configuration
 ├── index.html                # HTML entry template
+├── package-lock.json         # npm lockfile
 ├── package.json              # Scripts & dependencies
 ├── postcss.config.js         # PostCSS config for Tailwind
-├── tailwind.config.js        # Tailwind CSS configuration
-├── tsconfig.json             # TypeScript config
-└── README.md                 # Project documentation
+├── tailwind.config.ts        # Tailwind CSS configuration
+├── tsconfig.app.json         # TypeScript app config
+├── tsconfig.json             # TypeScript base config
+├── tsconfig.node.json        # Node-specific TS config
+└── vite.config.ts            # Vite configuration
 ```
 
 ## Deployment
